@@ -1,0 +1,18 @@
+public.java.util.*
+
+staic boolean cycle( node h)
+{
+	Hashset<int> map = new Hashset<int>();
+	while(h !=null)
+	{
+		if  (map.contains.(h))
+			return true;	
+
+		else{
+			s.add(h);
+			h = h.net();
+		        }
+	}
+	
+	return false;
+}
